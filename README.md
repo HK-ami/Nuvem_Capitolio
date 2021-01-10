@@ -2,8 +2,10 @@
 ## Nuvem de Palavras sobre "US Capitol" no Twitter usando Knime  
 
 Usando a API do Twitter, foi feita uma busca por "US Capitol" nos 200 tweets mais relevantes, usando um critério misto de mais recentes e mais populares, seus textos foram analisados com os seguintes passos:
+![alt text](https://github.com/HK-ami/Nuvem_Capitolio/blob/main/Workflow.png)
 
 - Informações dos tweets foram convertidos para documento de texto
+![alt text](https://github.com/HK-ami/Nuvem_Capitolio/blob/main/Resultados.png)
 - Foram removidos campos nulos
 - Foi filtrada a coluna de "tweet", indexada por "user_name"
 - Foram atribuídas classes gramaticais e identificados nomes de entidades (pessoas) para as palavras dos textos
@@ -19,4 +21,4 @@ Usando a API do Twitter, foi feita uma busca por "US Capitol" nos 200 tweets mai
 
 O arquivo Workflow mostra o diagrama feito no Knime com todos os nodos utilizados. O arquivo Resultados mostra um exemplo obtido da pesquisa no Twitter sem nenhum tratamento. O arquivo Nuvem mostra a Nuvem de Palavras obtidas após o processamento dos dados.
 
-![alt text](https://github.com/HK-ami/Nuvem_Capitolio/blob/main/Nuvem.png)
+![alt text](https://github.com/HK-ami/Nuvem_Capitolio/blob/main/Nuvem_Capitol.png)
